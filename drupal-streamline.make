@@ -30,11 +30,10 @@ defaults[projects][subdir] = "contrib"
 ; bin/init will rename drupal_streamline_profile and drupal_streamline_theme and they will
 ; become your custom install profile and theme. drupal_streamline_dev loads the client-side
 ; livereload js required by guard-livereload
-projects[drupal_streamline_profile][type] = "profile"
+projects[drupal_streamline_profile][type] = profile
 projects[drupal_streamline_profile][download][type] = git
 projects[drupal_streamline_profile][download][url] = https://github.com/dustinleblanc/drupal_streamline_profile.git
 project[drupal_streamline_profile][download][branch] = 8.x
-projects[drupal_streamline_profile][subdir] = ""
 
 projects[drupal_streamline_dev][type] = module
 projects[drupal_streamline_dev][download][type] = git
@@ -46,4 +45,4 @@ projects[drupal_streamline_theme][type] = theme
 projects[drupal_streamline_theme][download][type] = git
 projects[drupal_streamline_theme][download][url] = https://github.com/dustinleblanc/drupal_streamline_theme.git
 project[drupal_streamline_theme][download][branch] = 8.x
-projects[drupal_streamline_theme][subdir] = ""
+
